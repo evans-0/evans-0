@@ -18,4 +18,4 @@ I am a data analyst bridging the gap between **Finance** and **Data Science**. M
 * **Financial Dashboards:** Analyzing e-commerce and financial datasets to visualize KPIs and growth metrics.
 
 ### 📫 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/YOUR_LINKEDIN_URL_HERE/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/evansd0/)
