@@ -1,6 +1,6 @@
 # Hi there, I'm Evans! 👋
 
-### Financial Data Analyst | M.Sc. Data Analytics Candidate | BIDA®
+### Financial Data Analyst | M.Sc. Data Analytics | BIDA®
 
 I am a data analyst bridging the gap between **Finance** and **Data Science**. My work focuses on building quantitative models for portfolio optimization and designing interactive financial dashboards.
 
