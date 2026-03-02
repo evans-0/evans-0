@@ -14,6 +14,8 @@ I am a data analyst bridging the gap between **Finance** and **Data Science**. M
 ---
 
 ### 🔭 Current Projects
+* **Next-gen Reservoir Computing:** Using NGRC to build physics aware system to better predict basin maps of chaotic system such as Nordmark Map.
+* **Reservoir Computing:** Using reservoir computing to predict the dynamics of a chaotic system.
 * **[Portfolio Optimization Model](https://github.com/evans-0/Portfolio_Optimization):** A Python-based tool using Monte Carlo simulations to maximize Sharpe Ratios for Indian stocks.
 * **Financial Dashboards:** Analyzing e-commerce and financial datasets to visualize KPIs and growth metrics.
 
