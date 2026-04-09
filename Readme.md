@@ -17,7 +17,7 @@ I am a data analyst bridging the gap between **Finance** and **Data Science**. M
 * **Next-gen Reservoir Computing:** Using NGRC to build physics aware system to better predict basin maps of chaotic system such as Nordmark Map.
 * **Reservoir Computing:** Using reservoir computing to predict the dynamics of a chaotic system.
 * **[Portfolio Optimization Model](https://github.com/evans-0/Portfolio_Optimization):** A Python-based tool using Monte Carlo simulations to maximize Sharpe Ratios for Indian stocks.
-* **Financial Dashboards:** Analyzing e-commerce and financial datasets to visualize KPIs and growth metrics.
+* **[Financial Dashboards](https://public.tableau.com/app/profile/evans.d4005/viz/CalwestRegionalPerformance_17682086275790/Dashboard2):** Analyzing e-commerce and financial datasets to visualize KPIs and growth metrics.
 
 ### 📫 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/evansd0/)
