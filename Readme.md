@@ -105,8 +105,6 @@ Analyzing e-commerce and financial datasets to visualize **KPIs and growth metri
 
 </div>
 
-> ⚠️ To enable the snake animation, create a GitHub Action in your profile repo. See setup instructions below.
-
 ---
 
 ### 📫 Connect with me
