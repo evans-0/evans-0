@@ -24,24 +24,11 @@ jobs:
         run: |
           mkdir -p assets
 
-          curl -sf "https://github-readme-stats.vercel.app/api\
-          ?username=evans-0\
-          &show_icons=true\
-          &theme=tokyonight\
-          &include_all_commits=true\
-          &count_private=true\
-          &hide_border=true\
-          &cache_seconds=1" \
-          -o assets/stats.svg
+          curl -sf "https://github-readme-stats.vercel.app/api?username=evans-0&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1" \
+            -o assets/stats.svg
 
-          curl -sf "https://github-readme-stats.vercel.app/api/top-langs\
-          ?username=evans-0\
-          &layout=compact\
-          &langs_count=8\
-          &theme=tokyonight\
-          &hide_border=true\
-          &cache_seconds=1" \
-          -o assets/top-langs.svg
+          curl -sf "https://github-readme-stats.vercel.app/api/top-langs?username=evans-0&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1" \
+            -o assets/top-langs.svg
 
       - name: Commit updated cards
         run: |
