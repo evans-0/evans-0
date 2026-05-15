@@ -94,8 +94,8 @@ Analyzing e-commerce and financial datasets to visualize **KPIs and growth metri
 
 <div align="center">
 
-<img height="180em" src="./assets/stats.svg"/>
-<img height="180em" src="./assets/top-langs.svg"/>
+<img height="180em" src="./profile-summary-card-output/tokyonight/0-profile-details.svg"/>
+<img height="180em" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg"/>
 
 </div>
 
