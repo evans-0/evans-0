@@ -1,49 +1,19 @@
-name: Generate Contribution Snake
-
+name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: snake-generation
-  cancel-in-progress: true
-
 jobs:
   generate:
-    name: Generate & Animate Snake
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Apply progressive fatten animation
-        run: node .github/scripts/fatten-snake.js
-        env:
-          SNAKE_MIN_WIDTH: "1.5"
-          SNAKE_MAX_WIDTH: "10"
-          SNAKE_EASING: "ease-in"
-
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
