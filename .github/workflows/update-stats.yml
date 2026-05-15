@@ -20,4 +20,4 @@ jobs:
         with:
           USERNAME: evans-0
           BRANCH_NAME: main
-          EXCLUDE: "jupyter notebook"
+          EXCLUDE: "Jupyter Notebook"
