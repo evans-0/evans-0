@@ -1,62 +1,49 @@
-name: Generate Snake
+name: Generate Contribution Snake
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-generation
+  cancel-in-progress: true
+
 jobs:
   generate:
+    name: Generate & Animate Snake
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Fatten snake progressively
-        run: |
-          node << 'EOF'
-          const fs = require('fs');
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-          for (const file of ['dist/github-contribution-grid-snake.svg', 'dist/github-contribution-grid-snake-dark.svg']) {
-            if (!fs.existsSync(file)) continue;
-            let svg = fs.readFileSync(file, 'utf8');
+      - name: Apply progressive fatten animation
+        run: node .github/scripts/fatten-snake.js
+        env:
+          SNAKE_MIN_WIDTH: "1.5"
+          SNAKE_MAX_WIDTH: "10"
+          SNAKE_EASING: "ease-in"
 
-            // Extract animation duration so our fattening stays in sync
-            const durMatch = svg.match(/animation[^:]*:\s*[\w\s]*?([\d.]+)s/);
-            const dur = durMatch ? durMatch[1] : '3.5';
-
-            // Add a keyframe that grows stroke-width over the animation cycle
-            const keyframes = `
-            @keyframes snakeFatten {
-              0%   { stroke-width: 1.5px; }
-              40%  { stroke-width: 3px;   }
-              80%  { stroke-width: 7px;   }
-              100% { stroke-width: 10px;  }
-            }`;
-
-            if (!svg.includes('snakeFatten')) {
-              svg = svg.replace('</style>', keyframes + '\n</style>');
-            }
-
-            // Attach the animation to whichever element carries the snake stroke.
-            // snk typically uses class="snake" on a <path> — adjust selector if needed.
-            svg = svg.replace(
-              /(<(?:path|polyline)[^>]*class="[^"]*snake[^"]*"[^>]*?)(\/>|>)/g,
-              (match, el, close) => {
-                if (el.includes('snakeFatten')) return match; // already patched
-                return el + ` style="animation: snakeFatten ${dur}s ease-in infinite;"` + close;
-              }
-            );
-
-            fs.writeFileSync(file, svg);
-            console.log(`Fattened: ${file}`);
-          }
-          EOF
-
-      - uses: crazy-max/ghaction-github-pages@v3
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
