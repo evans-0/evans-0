@@ -1,5 +1,4 @@
 name: Generate Snake
-
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -15,6 +14,48 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Fatten snake progressively
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+
+          for (const file of ['dist/github-contribution-grid-snake.svg', 'dist/github-contribution-grid-snake-dark.svg']) {
+            if (!fs.existsSync(file)) continue;
+            let svg = fs.readFileSync(file, 'utf8');
+
+            // Extract animation duration so our fattening stays in sync
+            const durMatch = svg.match(/animation[^:]*:\s*[\w\s]*?([\d.]+)s/);
+            const dur = durMatch ? durMatch[1] : '3.5';
+
+            // Add a keyframe that grows stroke-width over the animation cycle
+            const keyframes = `
+            @keyframes snakeFatten {
+              0%   { stroke-width: 1.5px; }
+              40%  { stroke-width: 3px;   }
+              80%  { stroke-width: 7px;   }
+              100% { stroke-width: 10px;  }
+            }`;
+
+            if (!svg.includes('snakeFatten')) {
+              svg = svg.replace('</style>', keyframes + '\n</style>');
+            }
+
+            // Attach the animation to whichever element carries the snake stroke.
+            // snk typically uses class="snake" on a <path> — adjust selector if needed.
+            svg = svg.replace(
+              /(<(?:path|polyline)[^>]*class="[^"]*snake[^"]*"[^>]*?)(\/>|>)/g,
+              (match, el, close) => {
+                if (el.includes('snakeFatten')) return match; // already patched
+                return el + ` style="animation: snakeFatten ${dur}s ease-in infinite;"` + close;
+              }
+            );
+
+            fs.writeFileSync(file, svg);
+            console.log(`Fattened: ${file}`);
+          }
+          EOF
+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
