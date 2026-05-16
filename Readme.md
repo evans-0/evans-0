@@ -1,8 +1,18 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Evans!+%F0%9F%91%8B;Financial+Data+Analyst;Portfolio+Optimizer;Bridging+Finance+%2B+Data+Science)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFE81F&center=true&vCenter=true&width=700&lines=May+the+Force+be+with+you!+%E2%9A%94%EF%B8%8F;I+am+Evans+%E2%80%94+Jedi+Data+Analyst;Commander+of+the+Alliance+Portfolio;Bridging+Finance+%2B+the+Force)](https://git.io/typing-svg)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Evans%20Devakrubakar&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Financial%20Data%20Analyst%20%7C%20M.Sc.%20Data%20Analytics%20%7C%20BIDA%C2%AE&descAlignY=55&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=180&section=header&text=Evans%20Devakrubakar&fontSize=42&fontColor=FFE81F&animation=twinkling&fontAlignY=32&desc=Jedi%20Data%20Analyst%20%7C%20M.Sc.%20Data%20Analytics%20%7C%20BIDA%C2%AE&descAlignY=55&descSize=16"/>
+
+</div>
+
+---
+
+<div align="center">
+
+✨ *A long time ago, in a galaxy far, far away...* ✨
+
+*...a data analyst rose from the Outer Rim to bring balance to Finance and the Force.*
 
 </div>
 
@@ -10,31 +20,33 @@
 
 <img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-### 🧠 About Me
+### 🌌 Jedi Holocron
 
-I bridge the gap between **Finance** and **Data Science** — building quantitative models for portfolio optimization and designing interactive financial dashboards.
+*Transmitted from the Rebel Alliance Data Archives - classified intelligence dossier on Agent Evans Devakrubakar.*
 
-- 🔭 Currently working on **Reservoir Computing** for chaotic systems
-- 📊 Building **Monte Carlo** portfolio optimization tools
-- 💹 Passionate about **quantitative finance** and market analysis
-- 🎓 **M.Sc. Data Analytics** | **BIDA®** certified
+I'm a **Jedi Data Analyst** with the Alliance - using quant models and data science to outsmart Imperial markets one trade at a time.
+
+- 🔭 Currently mastering **Reservoir Computing** to predict chaos across the Outer Rim
+- 📊 Running **Monte Carlo** simulations to keep Alliance portfolios sharp
+- 💹 Passionate about **quantitative finance** - what keeps the Rebellion funded
+- 🎓 **M.Sc. Data Analytics** | **BIDA®** certified Jedi Knight
 
 <br clear="right"/>
 
 ---
 
-### 🛠️ Technical Stack
+### ⚔️ Arsenal & Equipment
 
 <div align="center">
 
-**Languages**
+**Languages of the Force**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Tools & Platforms**
+**Alliance Command Systems**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
@@ -42,7 +54,7 @@ I bridge the gap between **Finance** and **Data Science** — building quantitat
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-**Data Science & Visualization**
+**Intelligence & Reconnaissance**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -55,34 +67,34 @@ I bridge the gap between **Finance** and **Data Science** — building quantitat
 
 ---
 
-### 🔭 Current Projects
+### 🚀 Active Missions
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🌀 Next-gen Reservoir Computing
-Using **NGRC** to build physics-aware systems to predict basin maps of chaotic systems like the **Nordmark Map**.
+#### 🌀 Operation: NGRC - Chaos Oracle
+Building physics-aware **NGRC** models to map the basins of chaotic systems - including the **Nordmark Map** - so the Alliance can see the chaos coming.
 
 </td>
 <td width="50%">
 
-#### 🔁 Reservoir Computing
-Leveraging reservoir computing to **predict dynamics** of chaotic systems with high accuracy.
+#### 🔁 Operation: Echo Chamber
+Using reservoir computing to **predict the dynamics** of chaotic systems with Jedi-level precision - always one hyperspace jump ahead of Imperial disruption.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### 📈 [Portfolio Optimization Model](https://github.com/evans-0/Portfolio_Optimization)
-Python-based tool using **Monte Carlo simulations** to maximize Sharpe Ratios for Indian stocks.
+#### 📈 [Operation: Sharpe's Edge](https://github.com/evans-0/Portfolio_Optimization)
+Python-powered **Monte Carlo** simulation tool maximizing Sharpe Ratios for Indian stocks - fueling the Rebellion, one optimized portfolio at a time.
 
 </td>
 <td width="50%">
 
-#### 📊 [Financial Dashboards](https://public.tableau.com/app/profile/evans.d4005/viz/CalwestRegionalPerformance_17682086275790/Dashboard2)
-Analyzing e-commerce and financial datasets to visualize **KPIs and growth metrics**.
+#### 📊 [Galactic Intelligence Reports](https://public.tableau.com/app/profile/evans.d4005/viz/CalwestRegionalPerformance_17682086275790/Dashboard2)
+E-commerce and financial data from across the galaxy, turned into **KPI dashboards** for Alliance command.
 
 </td>
 </tr>
@@ -90,7 +102,7 @@ Analyzing e-commerce and financial datasets to visualize **KPIs and growth metri
 
 ---
 
-### 📊 GitHub Stats
+### 📡 Alliance Battle Records
 
 <div align="center">
 
@@ -107,7 +119,7 @@ Analyzing e-commerce and financial datasets to visualize **KPIs and growth metri
 
 ---
 
-### 🐍 Contribution Graph
+### 🐍 Starfield Patrol Log
 
 <div align="center">
 
@@ -117,9 +129,11 @@ Analyzing e-commerce and financial datasets to visualize **KPIs and growth metri
 
 ---
 
-### 📫 Connect with Me
+### 📻 Open a Comms Channel
 
 <div align="center">
+
+*Transmit on any of the following Alliance frequencies - the Council is listening.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evansd0/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/geevansd2003)
@@ -131,8 +145,10 @@ Analyzing e-commerce and financial datasets to visualize **KPIs and growth metri
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=evans-0&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=evans-0&color=FFE81F&style=for-the-badge&label=ALLIANCE+RECRUITS)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+⭐ *May the Force - and clean code - be with you, always.* ⭐
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=100&section=footer"/>
 
 </div>
