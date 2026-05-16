@@ -18,7 +18,7 @@
 
 ---
 
-<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" alt="X-Wing flying through a starfield" width="380" src="./xwing-animation.svg"/>
 
 ### 🌌 Jedi Holocron
 
