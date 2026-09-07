@@ -17,7 +17,7 @@ I bridge the gap between **Finance** and **Data Science** — building quantitat
 - 🔭 Currently working on **Reservoir Computing** for chaotic systems
 - 📊 Building **Monte Carlo** portfolio optimization tools
 - 💹 Passionate about **quantitative finance** and market analysis
-- 🎓 **M.Sc. Data Analytics** | **BIDA®** certified
+- 🎓 **M.Sc. Data Analytics** | **CFI BIDA®** certified
 
 <br clear="right"/>
 
