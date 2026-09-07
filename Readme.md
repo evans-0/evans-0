@@ -61,8 +61,8 @@ I bridge the gap between **Finance** and **Data Science** — building quantitat
 <tr>
 <td width="50%">
 
-#### 🌀 Next-gen Reservoir Computing
-Using **NGRC** to build physics-aware systems to predict basin maps of chaotic systems like the **Nordmark Map**.
+#### Dashboard for Cold-chain monitoring
+Made a dashboard for cold-chain monitoring including managing OTA updates, installation.
 
 </td>
 <td width="50%">
