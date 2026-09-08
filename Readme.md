@@ -1,14 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Evans%20Devakrubakar&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Financial%20Data%20Analyst%20%7C%20M.Sc.%20Data%20Analytics%20%7C%20CFI%20BIDA%C2%AE&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Evans%20Devakrubakar&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Analyst%20%7C%20Quantitative%20Research%20%7C%20M.Sc.%20Data%20Analytics&descAlignY=55&descSize=16" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Financial+Data+Analyst;Portfolio+Optimizer;Bridging+Finance+%2B+Data+Science" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Quantitative+Researcher;Data+Analytics+%26+IoT;Bridging+Finance+%2B+Data+Science" alt="Typing SVG" /></a>
 
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evansd0/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=flat-square&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/geevansd2003)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/evans-0)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/evans.d4005)
 
 </div>
 
@@ -16,11 +17,20 @@
 
 ### 👨‍💻 Executive Summary
 
-I am a data-driven professional bridging the gap between **Quantitative Finance** and **Data Science**. With an M.Sc. in Data Analytics and a CFI BIDA® certification, I specialize in building robust quantitative models for portfolio optimization, engineering predictive analytics for chaotic systems, and designing highly interactive financial dashboards that drive strategic decision-making.
+I am a data-driven professional bridging the gap between **Quantitative Finance** and **Data Science**. Currently pursuing an M.Sc. in Data Analytics & Computational Sciences at Digital University Kerala, I specialize in building robust quantitative models, engineering scalable database architectures, and designing interactive financial dashboards.
 
-- 🔭 **Current Focus:** Leveraging Reservoir Computing to predict the dynamics of chaotic systems with high accuracy.
-- 📈 **Core Passion:** Quantitative finance, algorithm-based market analysis, and risk optimization using Monte Carlo simulations.
-- 📫 **Let's Collaborate:** Always open to discussing FinTech innovations, quantitative modeling, and data-centric solutions.
+- 🔭 **Current Focus:** Architecting an IoT data dashboard by migrating legacy architecture from Google Sheets to PostgreSQL to handle real-time sensor streams and ensure system scalability.
+- 📈 **Quantitative Research:** Developing predictive financial models and alphas utilizing complex data structures to analyze market behaviors and optimize risk metrics.
+- 📫 **Let's Collaborate:** Always open to discussing FinTech innovations, algorithmic trading, quantitative modeling, and data-centric solutions.
+
+---
+
+### 💼 Professional Experience
+
+| Role & Organization | Key Contributions |
+| :--- | :--- |
+| **Research Consultant** <br> *WorldQuant Brain (Freelance, Remote)* | <ul><li>Conducting quantitative research and developing predictive financial models/alphas utilizing advanced data structures.</li><li>Applying principles of quantitative finance to analyze market behaviors and optimize risk metrics.</li></ul> |
+| **Research And Development Intern** <br> *Digital University Kerala* | <ul><li>Engineering an IoT data dashboard, migrating legacy architecture from Google Sheets to a robust PostgreSQL database.</li><li>Designing optimized database schemas to handle real-time IoT sensor streams and building dynamic visualization pipelines.</li></ul> |
 
 ---
 
@@ -28,10 +38,10 @@ I am a data-driven professional bridging the gap between **Quantitative Finance*
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) |
-| **Data Science & ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
-| **Data Visualization** | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white) |
-| **Tools & Platforms** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white) ![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white) |
+| **Languages** | Python, R, C/C++, SQL (MySQL, PostgreSQL), HTML |
+| **Data Science & ML** | Pandas, NumPy, Matplotlib |
+| **Data Visualization & BI** | Tableau, Power BI, IBM Cognos Analytics, BigQuery |
+| **Tools & Platforms** | Git, GitHub, Linux, LaTeX, Google Cloud Platform |
 
 ---
 
@@ -39,10 +49,15 @@ I am a data-driven professional bridging the gap between **Quantitative Finance*
 
 | Project | Description | Core Stack |
 | :--- | :--- | :--- |
-| **[Portfolio Optimization Model](https://github.com/evans-0/Portfolio_Optimization)** | Python-based quantitative tool utilizing Monte Carlo simulations to maximize Sharpe Ratios for Indian equities. | `Python` `Monte Carlo` `FinData` |
-| **[Financial Analytics Dashboards](https://public.tableau.com/app/profile/evans.d4005/viz/CalwestRegionalPerformance_17682086275790/Dashboard2)** | Advanced BI dashboards analyzing e-commerce and financial datasets to visualize KPIs and growth metrics. | `Tableau` `Data Viz` `KPIs` |
-| **Reservoir Computing Model** | Machine learning framework designed to predict the dynamics of chaotic systems with precision. | `TensorFlow` `Machine Learning` |
-| **Cold-Chain Monitoring System** | End-to-end analytics dashboard for cold-chain logistics, managing OTA updates and installation tracking. | `Analytics` `Dashboarding` `IoT` |
+| **Indian Stock Market Portfolio Optimization** | Python-based optimization model calculating the efficient frontier for Indian stocks. Implemented Sharpe Ratio maximization logic to identify optimal asset allocation and reduce portfolio risk. | `Python` `Pandas` `NumPy` |
+| **Financial Performance Dashboard** | Interactive dashboard visualizing KPIs like Gross Revenue, Profit, Discount, and Profit Margin with dynamic filtering for regional performance analysis. | `Tableau` `Data Modeling` |
+
+---
+
+### 📜 Certifications & Achievements
+
+- **Certifications:** Google Cloud Career Launchpad: Data Analytics, CFI Business Intelligence & Data Analyst (BIDA), Duke University Behavioral Finance, IBM SQL, ETL and BI Fundamentals.
+- **Achievements:** Winner of 3+ intercollegiate physics quizzes (1st place), including Madame Marie Curie Trophy (2024) and Battle of Brainiez (2024).
 
 ---
 
@@ -62,15 +77,5 @@ I am a data-driven professional bridging the gap between **Quantitative Finance*
 **Contribution History**
 <br>
 <img src="https://raw.githubusercontent.com/evans-0/evans-0/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="80%"/>
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=evans-0&color=00d9ff&style=flat-square&label=PROFILE+VIEWS)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 </div>
